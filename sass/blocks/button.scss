@@ -1,0 +1,23 @@
+.button {
+  margin: 0;
+  padding: 10px 52px;
+
+  font-family: $other-font;
+  font-size: 16px;
+  line-height: 36px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: rgb(216, 155, 100);
+
+  border: 1px solid transparent;
+  transition: box-shadow 0.5s;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 25px 5px rgba(#000000, 0.3);
+  }
+
+  &:active {
+    box-shadow: 0 0 25px rgba(#000000, 0.3);
+  }
+}

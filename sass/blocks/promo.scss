@@ -1,0 +1,33 @@
+.promo {
+  position: relative;
+
+  flex-grow: 1;
+
+  text-align: center;
+}
+
+.promo__text {
+  font-family: $other-font;
+  font-size: 6.4vw; /* 77px */
+  line-height: 91px;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(21, 27, 41);
+  text-transform: uppercase;
+  text-shadow: 0 0 85px rgba(0, 0, 0, 0.85);
+
+  &--big {
+    font-size: 9.15vw; /* 110px */
+  }
+}
+
+.promo__button {
+  @include reset-link;
+
+  position: absolute;
+  right: 5vw;
+  bottom: 5vw;
+
+  color: rgb(216, 155, 100);
+  border-color: rgba(#ffffff, 0.1);
+}
