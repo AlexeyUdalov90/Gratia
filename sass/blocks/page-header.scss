@@ -1,0 +1,14 @@
+.page-header--index {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  min-height: 100vh;
+  // max-height: 1100px;
+
+  background-color: rgb(21, 27, 41);
+  background-image: url("../img/index-header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,29 @@
+.site-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  font-family: $other-font;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.site-list__item {
+  margin: 0 33px;
+}
+
+.site-list__link {
+  @include reset-link;
+
+  &:hover,
+  &:focus {
+    color: rgb(216, 155, 100);
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
